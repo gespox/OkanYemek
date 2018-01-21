@@ -1,0 +1,75 @@
+@charset "utf-8";
+.main {
+	height: 1080px;
+	width: 1920px;
+}
+.font {
+	font-size: 24px;
+	background-color: #300;
+}
+
+.header {
+	background-color: #C30;
+	height: 10%;
+	width: 70%;
+	margin: auto;
+}
+.footer {
+	background-color: #f88168;
+	height: 10%;
+	width: 70%;
+	margin: auto;
+	text-align: center;
+	font-size: 18px;
+	color: #FFF;	
+
+	
+	
+	
+}
+.icerik{
+
+	height:100%;
+	width: 70%;
+	margin-top: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: 15%;
+}
+
+.giris {
+	height: 100%;
+	width: 25%;
+}
+
+.menu {
+	background-color: #eff0f6;
+	height: 100%;
+	width: 75%;
+	float: right;
+}
+
+.vertical-menu {
+    width: 100%; 
+	font-size: 20px;
+		/* Set a width if you like */
+}
+
+.vertical-menu a {
+    background-color: #eee; /* Grey background color */
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 56px; /* Add some padding */
+    text-decoration: none;
+	/* Remove underline from links */
+}
+
+.vertical-menu a:hover {
+	background-color: #ccc; /* Dark grey background on mouse-over */
+	font-size: 20px;
+}
+
+.vertical-menu a.active {
+    background-color: #d0e0d1; /* Add a green color to the "active/current" link */
+    color: white;
+}
